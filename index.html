@@ -17,12 +17,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Vendor: Bootstrap Stylesheets http://getbootstrap.com -->
-    <link rel="stylesheet" href="css/libs/bootstrap.min.css">
-    <link rel="stylesheet" href="css/libs/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="app/css/libs/bootstrap.min.css">
+    <link rel="stylesheet" href="app/css/libs/bootstrap-theme.min.css">
     <link href="css/fonts/font-awesome.min.css" rel="stylesheet">
 
     <!-- Our Website CSS Styles -->
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="app/css/main.css">
 
 </head>
 <body ng-app="tutorialWebApp">
@@ -32,20 +32,20 @@
 <![endif]-->
 
 <!-- Our Website Content Goes Here -->
-<div ng-include='"templates/header.html"'></div>
+<div ng-include='"app/master/header.html"'></div>
 <div ng-view></div>
-<div ng-include='"templates/footer.html"'></div>
+<div ng-include='"app/master/footer.html"'></div>
 
 <!-- Vendor: Javascripts -->
-<script src="js/libs/jquery.min.js"></script>
-<script src="js/libs/bootstrap.min.js"></script>
+<script src="app/js/libs/jquery.min.js"></script>
+<script src="app/js/libs/bootstrap.min.js"></script>
 
 <!-- Vendor: Angular, followed by our custom Javascripts -->
-<script src="js/libs/angular.min.js"></script>
-<script src="js/libs/angular-route.min.js"></script>
+<script src="app/js/libs/angular.min.js"></script>
+<script src="app/js/libs/angular-route.min.js"></script>
 
 <!-- Our Website Javascripts -->
-<script src="js/main.js"></script>
+<script src="app/js/main.js"></script>
 
 </body>
 </html>
